@@ -1,9 +1,12 @@
-function ShowName(props){
-console.log(props);
-return <div>
-    <h1>{props.name}</h1>
-    <p>{props.about || "About is not available"}</p>
-</div>
-}
+// ... Spread, Rest
+//{}, [] Destructuring
 
-export default ShowName;
+function ShowName({name, about, abc:linkedIn}){
+    return <div>
+        <h1>{name}</h1>
+        { <i>linkedIn Profile: {linkedIn}</i> }
+        <p>{about || "About is not available"}</p>
+    </div>
+    }
+    
+    export default ShowName;
