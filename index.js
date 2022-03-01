@@ -9,6 +9,14 @@ const routing = (
   <Router>
     <div>
     <h1>This is React Router Demo!!</h1>
+    <ul>
+      <li>
+        <Link to= "/">Home</Link>
+
+      </li>
+      <li><Link to= "/about">AboutUs</Link></li>
+      
+    </ul>
 <App />  
     </div>
   </Router>
