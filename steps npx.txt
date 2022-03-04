@@ -9,5 +9,10 @@ F:\reactdemos>npx create-react-app reacthello
 F:\reactdemos>cd reacthello
 
 F:\reactdemos\reacthello>npm start
+========================================================
+steps to install redux
+npm install --save redux react-redux
 
+steps to install react-router-dom
+npm i react-router-dom
 
