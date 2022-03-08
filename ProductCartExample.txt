@@ -1,0 +1,5 @@
+create simple react example
+display the products gets added to the cart by button
+means if i want to click on view cart button then it should display the initial state of a cart
+and if i click on add to cart button the cart should show increased number 
+
