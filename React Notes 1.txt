@@ -1,0 +1,45 @@
+What is state:
+built in object known as state
+component. State is to manage the data.
+For ex.
+class myClass extends React.component{
+constructor()
+	{
+		this.state={
+		   id:1,
+		   name: "myclass"
+	}
+};
+render(){
+	return (<div>
+		<p>{this.state.id}</p>
+		<p>{this.state.name}</p>
+</div>
+               )
+}
+
+
+
+
+=======================================
+What are Props?
+----------------
+props -= properties are used to pass data between react app and its components
+=====================================
+ex:
+class SuperComponent extends Component
+{
+render(){
+	return (
+	<ChildComponent name="Child1"/>
+	);
+}
+}
+const ChildComponent=(props)=>{
+
+return <p>{props.name}</p>;
+
+}
+}
+
+
